@@ -72,10 +72,15 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create variable isStudent and assign value of true. Variable age
+// has a value of 34. Variable zip has a value of 55407. 
+// Using conditionals, if isStudent is true and the zip value is greater than
+// 55407, console.log will show `You're a student on the West Coast!`
+// If isStudent is false or the age is less than 30, console. log will 
+// display 'What are your hobbies?'.
+// If only isStudent is true, console.log will display 'Welcome to Prime!'.
+// If none of these apply, console.log will display 'How about the weather?'.
+// We console.log 'Welcome to Prime!'.
 
 //CODE
 /*
@@ -132,6 +137,8 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+
+// FIX - colorOne should be blue and ColorTwo should be red. 
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -149,6 +156,8 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX - Conditional should be checking if both temp and time meet the
+// requirements using &&.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -161,6 +170,8 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
+//FIX - if conditional should read age >= MinAge.
 
 if(minAge <= age) {
   console.log('no entry');
